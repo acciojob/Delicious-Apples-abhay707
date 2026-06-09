@@ -1,1 +1,160 @@
-/* your code here */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.product{
+    background-color: rgb(105,224,137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: white;
+    position: relative;
+    display: flex;
+    width:50%;
+    height:70%;
+}
+
+.product__photo{
+    position: absolute;
+    display: flex;
+    left:-80px;
+    top:40px;
+}
+
+.product__info{
+    margin-left: 300px;
+}
+
+.photo-container{
+    border-radius: 10px;
+    overflow: visible;
+}
+
+.photo-main{
+    background-color: rgb(180,230,88);
+    overflow: visible;
+    width: 100%;
+    height: 420px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.photo-album ul{
+    display: flex;
+    list-style: none;
+    margin-left: 55px;
+    gap:10px;
+
+}
+.photo-album li{
+    margin-top: 10px;
+    border:1px solid grey;
+
+}
+
+.controls{
+    position: absolute;
+    top:15px;
+    left:15px;
+    right:15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.photo-album{
+    height: 20%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.photo-main img{
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    transform: translateX(-50px);
+}
+
+.title{
+    margin-top: 30%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title h1{
+   font-size:25px;
+   font-weight: 700;
+
+}
+
+.title span{
+    color:grey;
+    font-weight: 400;
+    font-size: small;
+}
+
+.price{
+    
+    margin-top: 10%;
+    color:red;
+
+}
+
+.price span{
+    font-size: 50px;
+}
+
+.variant h3{
+    color:grey;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:10%;
+    font-size: 12px;
+    
+}
+
+.variant ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    gap:10px;
+    margin-top: 5%;
+}
+
+.bordered-item{
+    border:1px solid grey
+}
+
+.description{
+    margin-top:10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description h3{
+    color:grey;
+    font-size: 12px;
+}
+
+.description ul{
+    margin-top: 20px;
+    margin-left:15%;
+}
+
+.Add-to-cart{
+    margin-top: 10%;
+    text-align: center;
+    height: 8%;
+    width: 60%;
+    background-color: rgb(234,81,74);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
